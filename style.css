@@ -35,6 +35,8 @@ h1 {
 
 .buttons {
   margin-top: 30px;
+  position:relative;
+  height:200;
 }
 
 .btn {
@@ -51,6 +53,8 @@ h1 {
 .yes {
   background-color: #ff4d6d;
   color: white;
+  transition: transform 0.3s ease;
+
 }
 
 .no {
